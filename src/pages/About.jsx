@@ -1,5 +1,13 @@
-import React from "react";
+import pic from "../assets/about-pic.svg";
+import Banner from "../components/Home/banner";
+import '../styles/about.css'
+
 
 export default function About(){
-    return <div><h1>A propos</h1></div>
+    return (
+        <div className="about-container">
+            <Banner photo={pic} />
+        </div>
+        
+    )
 }

@@ -1,0 +1,9 @@
+.about-container {
+    margin-top: 5%;
+}
+
+.img-container img{
+    object-fit: cover;
+    width: 100%;
+    transform: translateY(-40%);
+}

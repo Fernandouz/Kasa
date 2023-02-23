@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../styles/error.css'
 
 export default function BadURL (){
     return (

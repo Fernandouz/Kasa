@@ -11,7 +11,7 @@ console.log(logements)
 export default function Home(){
     return (
         <div className="home-container">
-           <Banner photo={banner}/>
+           <Banner photo={banner}>Chez vous, partout et ailleurs</Banner>
             <div className="cards-container">
                 {logements.map((logement) => <Card key={logement.id} title={logement.title} pictures={logement.pictures} />)}
             </div>

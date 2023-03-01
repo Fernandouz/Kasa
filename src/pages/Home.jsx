@@ -18,4 +18,3 @@ export default function Home(){
     )
 }
 
-// {logement.map(logement => <Card props={logement} key={logement.id} /> )}

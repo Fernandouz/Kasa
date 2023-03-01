@@ -6,9 +6,9 @@ import "../styles/header.css"
 export default function Header(){
     return <div className="header container">
         <img src={logo} alt="logo" />
-        <nav>
-           <Link to="/"><p>Acceuil</p></Link> 
-           <Link to="/about"><p>A propos</p></Link> 
+        <nav className="navig">
+           <Link to="/">Acceuil</Link> 
+           <Link to="/about">A propos</Link> 
             
         </nav>
     </div>

@@ -77,3 +77,34 @@
     font-family: 'montserrat';
     font-size: 0.9em;
 }
+
+@media screen and (max-width: 376px){
+
+.img-container{
+    border-radius: 10px;
+}
+
+.home-container img {
+   
+    border-radius: 10px;
+}
+
+.descr {
+    width: 45%;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 400;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%, -90%);
+}
+.cards-container {
+    margin-top: 5%;
+    padding: 0;
+    background: white;
+    flex-direction: column;
+}
+.cards {
+    width: 100%;
+}
+}

@@ -6,14 +6,12 @@ import Banner from "../components/Home/banner";
 
 const logements = require('../assets/logements.json');
 
-console.log(logements)
-
 export default function Home(){
     return (
         <div className="home-container">
            <Banner photo={banner}>Chez vous, partout et ailleurs</Banner>
             <div className="cards-container">
-                {logements.map((logement) => <Card key={logement.id} title={logement.title} pictures={logement.pictures} />)}
+                {logements.map((logement) => <Card key={logement.id} id={logement.id} title={logement.title} pictures={logement.pictures} />)}
             </div>
          
         </div>

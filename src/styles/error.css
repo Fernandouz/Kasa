@@ -6,17 +6,32 @@ div{
 h1{
     font-size: 13em;
     margin-bottom: 0;
+    font-family: 'montserrat';
 }
 
-p{
+.oups{
     margin-top: 5%;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: 'montserrat';
     margin-bottom: 15%;
 }
 
-a{
+.err-link{
     
     color: #FF6060;
     font-family: 'montserrat';
+}
+
+@media screen and (max-width: 376px){
+    h1{
+        font-size: 96px;
+        margin-top: 40%;
+    }
+    .oups{
+        font-size: 18px;
+    }
+
+    .err-link{
+        font-size: 12px;
+    }
 }

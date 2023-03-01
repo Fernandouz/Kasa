@@ -14,17 +14,18 @@ nav {
     width: 20%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-nav a {
+.navig a {
     color: #FF6060;
-    text-decoration: none;   
+    text-decoration: none;  
 }
 
 .contain {
     background-color: black;
     text-align: center;
-    width: 120%;
+    width: 119.5%;
     transform: translate(-8%);
     color: white;
     padding-bottom: 2%;
@@ -35,3 +36,27 @@ nav a {
 .contain img {
     width: 15%;
 }
+
+@media screen and (max-width: 376px){
+    .container {
+        height: 45px;
+    }
+    
+    .container img {
+        width: 40%;
+        height: 100%;
+    }
+    
+    nav {
+        width: 35%;
+    }
+    
+    .navig a { 
+        font-size: 0.6em; 
+        text-transform: uppercase;
+    }
+    .contain{
+        font-size: 0.5em;
+    }
+}
+    

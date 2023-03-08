@@ -4,12 +4,16 @@ import Collapse from "../components/About/collapse";
 import '../styles/fiche.css';
 import Caroussel from "../components/FicheLogement/caroussel";
 import Host from "../components/FicheLogement/host";
+import BadURL from "./ErrorPage";
 
 
 export default function Fiche(){
     const logements = require('../assets/logements.json');
     const params = useParams()
     const logement = logements.find(log => log.id === params.id)
+    if (logement === undefined) {
+        return (<BadURL/>);
+      }
     return (
         <div className="fiche-container">
             <Caroussel pic={logement.pictures}  ></Caroussel>

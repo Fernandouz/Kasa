@@ -1,5 +1,5 @@
-import red from './stars/Vector.png'
-import grey from './stars/Vector-grey.png'
+import red from '../../assets/stars/Vector.png'
+import grey from '../../assets/stars/Vector-grey.png'
 
 export default function Host(props){
     const rate = parseInt(props.rating);

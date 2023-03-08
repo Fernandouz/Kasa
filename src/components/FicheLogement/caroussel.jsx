@@ -1,6 +1,6 @@
 import React from 'react';
-import right from './stars/right.png'
-import left from './stars/left.png'
+import right from '../../assets/stars/right.png'
+import left from '../../assets/stars/left.png'
 import { useState } from 'react';
 
 export default function Caroussel(props){
